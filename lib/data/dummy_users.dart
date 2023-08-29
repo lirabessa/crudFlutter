@@ -1,16 +1,17 @@
 import 'package:crud/models/user.dart';
 
+
 const DUMMY_USERS = {
   '1': User(
     id: '1',
     name: 'Hermione',
     email: 'granger@gmail.com',
-    avatarUrl: 'https://harrypotter.fandom.com/pt-br/wiki/Hermione_Granger',
+    avatarUrl: 'https://4.bp.blogspot.com/-clk-DZnT4F0/Tarp4GMLT_I/AAAAAAAAAKI/krB9xuLDk6c/s1600/Hermione-Jean-Granger.jpg',
   ),
   '2': User(
-    id: '2',  // Corrigido o ID para ser único
+    id: '2', 
     name: 'Tony',
     email: 'tonynho@gmail.com',
-    avatarUrl: 'https://pt.wikipedia.org/wiki/Tony_Stark_%28Universo_Cinematogr%C3%A1fico_Marvel%29',
+    avatarUrl: ''
   ),
 };
