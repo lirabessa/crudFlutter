@@ -9,11 +9,14 @@ class UserList extends StatelessWidget{
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text ('Lista de Usuario'),
+          title: const Text ('Lista de Usuariio'),
+          actions: <Widget>[
+            IconButton(onPressed: () {}, icon: Icon(Icons.add)
+            )
+          ],
         ),
         body: ListView.builder(
           itemCount: users.length,
-          // itemBuilder: ((ctx, i) => Text(users.values.elementAt(i).name)), //nome das pessoas
           itemBuilder: (ctx, i) => UserTile((users.values.elementAt(i))),
         )
     );
